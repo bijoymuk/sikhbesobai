@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+a{
+text-decoration: none;
+}
+
+.header{
+width:100%;
+background-color:white;
+} 
+
+.container{
+width:1140px;
+margin:auto;
+}
+.menubar{ 
+display: flex;
+justify-content:space-between;
+
+ }
+ .menu ul li{
+list-style: none;
+display: inline-block;
+word-spacing: 10px;
+padding-right:16px;
+padding-left:16px;
+padding-top:16px;
+padding-bottom:16px;
+line-height: 50px;
+ }
+
+.menu-btn button,.btn-2{
+background-color: #2e367d;
+border: none;
+padding-top:12px;
+padding-bottom: 12px;
+padding-left: 22px;
+padding-right: 22px;
+margin-top: 10px;
+margin-left: 8px;
+color: white;
+}
+.menu-btn,.btn-2{
+    margin-top:16px;
+}
+.menu-btn button:hover{
+ background-color:#00AEEF;
+ cursor: pointer;
+}
+
+.footer-row{
+ display: flex;
+
+}
+
+.footer{  
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-1,.footer-2,.footer-3,.footer-4{
+
+flex-basis: 25%;
+margin-right:16px ;
+}
+.f-title{
+font-size: 16px;
+color:#1e266d ;
+margin-bottom: 16px;
+}
+.f-desc{
+
+font-size: 16px;
+color: #91a3bb;
+line-height: 1.9;
+}
+.links li{
+
+    list-style: none;
+line-height: 1.9;
+}
+.links li a{
+    color:#91a3bb ;
+transition: 0.5s;
+
+}
+.links li a:hover{
+  color:#1e266d ;
+  margin-left: 8px ;
+transition: 0.5s;
+}
+.address-row{
+    display: flex;
+    background-color: #2E367D;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.address-left,.address-right{
+    flex-basis: 50%;
+ 
+}
+.address-row h3{
+
+    color: white;
+    font-size: 24px;
+    margin-bottom:16px ;
+}
+.address-row p{
+    color: white;
+    font-size: 16px;
+    margin-bottom:16px ;
+}
+
+
+.banner1-row{
+    display: flex;
+}
+.banner1-row h5{
+    font-size: 45px;
+    line-height: 52px;
+}
+.banner1-row p{
+        font-size: 20px;
+    line-height: 24px;
+}
+
+.btn-2:hover{
+     background-color:#00AEEF;
+     cursor: pointer;
+}
+.btn-2{
+    border-radius: 5px;
+    padding: 13px 30px;
+}
+.banner1-left h5{
+        color: #1e266d;
+        margin-top: 40px;
+        margin-bottom: 30px;
+            line-height: 52px;
+
+}
+
+.banner1-right,.banner1-left{
+    flex-basis: 50%;
+}
